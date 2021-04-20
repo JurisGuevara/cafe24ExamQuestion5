@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="background-image"></div>
+        <div class="login-form">
+            <div class="photo-image"></div>
+            <span class="cafe24-publisher">User Login</span>
+            <div class="user">
+                <div id="validation-message"></div>
+                <br>
+                <input id="emailInput" type="email" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+                <br>
+                <input id="passwordInput" type="password" name="email" value="email" onFocus="field_focus(this, 'email');" onblur="field_blur(this, 'email');" class="email" />
+                <br>
+                <div class="btn" onclick="login()" id="login">Login</div>
+                <br>
+                <p>Forgot password? <br> <u style="color:#f1c40f;">Click Here!</u></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
